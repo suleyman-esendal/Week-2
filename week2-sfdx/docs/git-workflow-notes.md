@@ -9,3 +9,7 @@
 
 ## Ignored local files
 - `.sf/`, `.sfdx/`, and `.env` are excluded via `.gitignore` to prevent committing local auth tokens and secrets.
+## Why branch names must identify owner and purpose
+- Owner (e.g. `student/suleyman-esendal/...`) makes it clear whose branch it is when multiple people work in the same repo — avoids confusion or accidentally touching someone else's work.
+- Purpose (e.g. `week-02-workflow`) makes it obvious what the branch is for without needing extra documentation.
+- Clear naming keeps the repo organized and searchable as the number of branches grows.
