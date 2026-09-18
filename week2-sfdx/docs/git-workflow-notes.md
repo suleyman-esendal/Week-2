@@ -8,8 +8,10 @@
 - Changes can be reviewed (pull requests) before merging — direct org edits skip this check.
 
 ## Ignored local files
-- Local credentials (`.sf/`, `.sfdx/`, `.env`) are kept out of Git entirely through `.gitignore` rules, so tokens never leave your machine.
+
+- Local credentials (`.sf/`, `.sfdx/`, `.env`) must always be excluded via `.gitignore` — this keeps tokens off shared history with no exceptions.
 ## Why branch names must identify owner and purpose
 - Owner (e.g. `student/suleyman-esendal/...`) makes it clear whose branch it is when multiple people work in the same repo — avoids confusion or accidentally touching someone else's work.
 - Purpose (e.g. `week-02-workflow`) makes it obvious what the branch is for without needing extra documentation.
 - Clear naming keeps the repo organized and searchable as the number of branches grows.
+
