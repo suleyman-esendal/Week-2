@@ -8,4 +8,4 @@
 - Changes can be reviewed (pull requests) before merging — direct org edits skip this check.
 
 ## Ignored local files
-- `.sf/`, `.sfdx/`, and `.env` are excluded via `.gitignore` to prevent committing local auth tokens and secrets.
+- `.sf/`, `.sfdx/`, `.env`, and any credential files must always be excluded via `.gitignore` — no exceptions, ever.
