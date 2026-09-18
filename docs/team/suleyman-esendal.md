@@ -1,0 +1,1 @@
+3. Write clear, descriptive commit messages that explain the "why" — so teammates understand the reasoning behind a change, not just what changed.
