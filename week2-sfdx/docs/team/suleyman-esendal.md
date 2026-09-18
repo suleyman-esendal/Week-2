@@ -7,4 +7,4 @@
 - **Three Git Rules I Will Follow:**
   1. Never commit secrets, tokens, or credentials to the repository.
   2. Always pull the latest changes before starting new work.
-  3. Write clear, descriptive commit messages that explain the "why," not just the "what."
+  3. Write clear, descriptive commit messages that explain the "why" — so teammates understand the reasoning behind a change, not just what changed.
