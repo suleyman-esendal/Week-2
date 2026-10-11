@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Material_Requirement_Count__c</fullName>
+    <inlineHelpText>Number of material requirements linked to this order.</inlineHelpText>
+    <label>Material Requirement Count</label>
+    <summaryForeignKey>Material_Requirement__c.Production_Order__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

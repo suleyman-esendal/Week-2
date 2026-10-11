@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Order_Highlights</fullName>
+    <fields>Name</fields>
+    <fields>Schedule_Risk__c</fields>
+    <fields>Completion_Percent__c</fields>
+    <fields>Planned_Quantity__c</fields>
+    <label>Production Order Highlights</label>
+</CompactLayout>

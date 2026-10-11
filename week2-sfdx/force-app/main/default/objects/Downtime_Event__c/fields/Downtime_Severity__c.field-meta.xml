@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Downtime_Severity__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(BLANKVALUE(Downtime_Minutes__c, 0) &gt;= 30, &quot;Critical&quot;, &quot;Minor&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Critical when the stoppage lasts 30 minutes or more. Critical events should be escalated to the Plant Manager.</inlineHelpText>
+    <label>Downtime Severity</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

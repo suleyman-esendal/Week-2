@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <inlineHelpText>Current phase of the order in the production process, from planning through finished-goods release. Only the listed phases are allowed.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Production Planning</fullName>
+                <default>false</default>
+                <label>Production Planning</label>
+            </value>
+            <value>
+                <fullName>Material Readiness</fullName>
+                <default>false</default>
+                <label>Material Readiness</label>
+            </value>
+            <value>
+                <fullName>Work-Center Scheduling</fullName>
+                <default>false</default>
+                <label>Work-Center Scheduling</label>
+            </value>
+            <value>
+                <fullName>Execution</fullName>
+                <default>false</default>
+                <label>Execution</label>
+            </value>
+            <value>
+                <fullName>Quality Inspection</fullName>
+                <default>false</default>
+                <label>Quality Inspection</label>
+            </value>
+            <value>
+                <fullName>Downtime Response</fullName>
+                <default>false</default>
+                <label>Downtime Response</label>
+            </value>
+            <value>
+                <fullName>Finished-Goods Release</fullName>
+                <default>false</default>
+                <label>Finished-Goods Release</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
