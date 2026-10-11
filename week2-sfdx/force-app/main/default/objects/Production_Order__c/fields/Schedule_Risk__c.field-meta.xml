@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Risk__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Status__c, &quot;Finished-Goods Release&quot;), &quot;Complete&quot;,
+IF(ISBLANK(Start_Date__c), &quot;No Start Date&quot;,
+IF(AND(NOT(Material_Ready__c), Start_Date__c - TODAY() &lt;= 2), &quot;At Risk&quot;, &quot;On Track&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Share of the planned quantity that has been completed. Calculated automatically from Completed Quantity and Planned Quantity.</inlineHelpText>
+    <label>Schedule Risk</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

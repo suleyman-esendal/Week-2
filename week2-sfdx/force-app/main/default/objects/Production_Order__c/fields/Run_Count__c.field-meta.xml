@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Run_Count__c</fullName>
+    <inlineHelpText>Number of production runs executed for this order.</inlineHelpText>
+    <label>Run Count</label>
+    <summaryForeignKey>Production_Run__c.Production_Order__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

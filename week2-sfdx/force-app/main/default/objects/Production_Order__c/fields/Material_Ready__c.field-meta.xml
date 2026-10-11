@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Material_Ready__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Checked when all required materials for this order are confirmed available. An order should not be scheduled until this is checked.</inlineHelpText>
+    <label>Material Ready</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,66 @@
+[
+  {
+    "sobject": "Plant__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Plant__c.json"
+    ]
+  },
+  {
+    "sobject": "Work_Center__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Work_Center__c.json"
+    ]
+  },
+  {
+    "sobject": "Production_Order__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Production_Order__c.json"
+    ]
+  },
+  {
+    "sobject": "Material_Requirement__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Material_Requirement__c.json"
+    ]
+  },
+  {
+    "sobject": "Production_Run__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Production_Run__c.json"
+    ]
+  },
+  {
+    "sobject": "Downtime_Event__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Downtime_Event__c.json"
+    ]
+  },
+  {
+    "sobject": "Quality_Inspection__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Quality_Inspection__c.json"
+    ]
+  },
+  {
+    "sobject": "Finished_Good__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Finished_Good__c.json"
+    ]
+  }
+]

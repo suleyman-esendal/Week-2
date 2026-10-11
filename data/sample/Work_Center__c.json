@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Work_Center__c",
+        "referenceId": "WCRef1"
+      },
+      "Name": "Welding Line 1",
+      "Plant__c": "@PlantRef1"
+    },
+    {
+      "attributes": {
+        "type": "Work_Center__c",
+        "referenceId": "WCRef2"
+      },
+      "Name": "Assembly Line A",
+      "Plant__c": "@PlantRef1"
+    },
+    {
+      "attributes": {
+        "type": "Work_Center__c",
+        "referenceId": "WCRef3"
+      },
+      "Name": "CNC Cell 1",
+      "Plant__c": "@PlantRef2"
+    },
+    {
+      "attributes": {
+        "type": "Work_Center__c",
+        "referenceId": "WCRef4"
+      },
+      "Name": "CNC Cell 2",
+      "Plant__c": "@PlantRef2"
+    },
+    {
+      "attributes": {
+        "type": "Work_Center__c",
+        "referenceId": "WCRef5"
+      },
+      "Name": "Stamping Press 1",
+      "Plant__c": "@PlantRef3"
+    },
+    {
+      "attributes": {
+        "type": "Work_Center__c",
+        "referenceId": "WCRef6"
+      },
+      "Name": "Paint Booth 1",
+      "Plant__c": "@PlantRef4"
+    }
+  ]
+}

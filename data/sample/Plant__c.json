@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Plant__c",
+        "referenceId": "PlantRef1"
+      },
+      "Name": "Detroit Assembly Plant",
+      "External_Id__c": "PLT-001"
+    },
+    {
+      "attributes": {
+        "type": "Plant__c",
+        "referenceId": "PlantRef2"
+      },
+      "Name": "Monterrey Machining Plant",
+      "External_Id__c": "PLT-002"
+    },
+    {
+      "attributes": {
+        "type": "Plant__c",
+        "referenceId": "PlantRef3"
+      },
+      "Name": "Ohio Stamping Plant",
+      "External_Id__c": "PLT-003"
+    },
+    {
+      "attributes": {
+        "type": "Plant__c",
+        "referenceId": "PlantRef4"
+      },
+      "Name": "Stuttgart Components Plant",
+      "External_Id__c": "PLT-004"
+    },
+    {
+      "attributes": {
+        "type": "Plant__c",
+        "referenceId": "PlantRef5"
+      },
+      "Name": "Pilot Line Plant"
+    }
+  ]
+}

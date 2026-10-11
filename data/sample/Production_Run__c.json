@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Production_Run__c",
+        "referenceId": "RunRef1"
+      },
+      "Production_Order__c": "@PORef7",
+      "Work_Center__c": "@WCRef1"
+    },
+    {
+      "attributes": {
+        "type": "Production_Run__c",
+        "referenceId": "RunRef2"
+      },
+      "Production_Order__c": "@PORef7",
+      "Work_Center__c": "@WCRef2"
+    },
+    {
+      "attributes": {
+        "type": "Production_Run__c",
+        "referenceId": "RunRef3"
+      },
+      "Production_Order__c": "@PORef8",
+      "Work_Center__c": "@WCRef5"
+    },
+    {
+      "attributes": {
+        "type": "Production_Run__c",
+        "referenceId": "RunRef4"
+      },
+      "Production_Order__c": "@PORef9",
+      "Work_Center__c": "@WCRef6"
+    },
+    {
+      "attributes": {
+        "type": "Production_Run__c",
+        "referenceId": "RunRef5"
+      },
+      "Production_Order__c": "@PORef10",
+      "Work_Center__c": "@WCRef3"
+    },
+    {
+      "attributes": {
+        "type": "Production_Run__c",
+        "referenceId": "RunRef6"
+      },
+      "Production_Order__c": "@PORef11",
+      "Work_Center__c": "@WCRef2"
+    },
+    {
+      "attributes": {
+        "type": "Production_Run__c",
+        "referenceId": "RunRef7"
+      },
+      "Production_Order__c": "@PORef12",
+      "Work_Center__c": "@WCRef6"
+    }
+  ]
+}

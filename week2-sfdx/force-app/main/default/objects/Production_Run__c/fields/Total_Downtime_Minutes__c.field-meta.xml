@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Downtime_Minutes__c</fullName>
+    <inlineHelpText>Sum of all downtime events logged against this run, in minutes. Updates automatically when a downtime event is added or changed.</inlineHelpText>
+    <label>Total Downtime Minutes</label>
+    <summarizedField>Downtime_Event__c.Downtime_Minutes__c</summarizedField>
+    <summaryForeignKey>Downtime_Event__c.Production_Run__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
