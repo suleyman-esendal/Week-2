@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Downtime_Event__c",
+        "referenceId": "DTRef1"
+      },
+      "Production_Run__c": "@RunRef5",
+      "Downtime_Minutes__c": 45
+    },
+    {
+      "attributes": {
+        "type": "Downtime_Event__c",
+        "referenceId": "DTRef2"
+      },
+      "Production_Run__c": "@RunRef5",
+      "Downtime_Minutes__c": 12
+    },
+    {
+      "attributes": {
+        "type": "Downtime_Event__c",
+        "referenceId": "DTRef3"
+      },
+      "Production_Run__c": "@RunRef1",
+      "Downtime_Minutes__c": 30
+    },
+    {
+      "attributes": {
+        "type": "Downtime_Event__c",
+        "referenceId": "DTRef4"
+      },
+      "Production_Run__c": "@RunRef3",
+      "Downtime_Minutes__c": 8
+    },
+    {
+      "attributes": {
+        "type": "Downtime_Event__c",
+        "referenceId": "DTRef5"
+      },
+      "Production_Run__c": "@RunRef4",
+      "Downtime_Minutes__c": 480
+    }
+  ]
+}

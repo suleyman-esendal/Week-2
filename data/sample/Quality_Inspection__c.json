@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Quality_Inspection__c",
+        "referenceId": "QIRef1"
+      },
+      "Production_Run__c": "@RunRef4",
+      "Quality_Status__c": "Pending"
+    },
+    {
+      "attributes": {
+        "type": "Quality_Inspection__c",
+        "referenceId": "QIRef2"
+      },
+      "Production_Run__c": "@RunRef6",
+      "Quality_Status__c": "Passed"
+    },
+    {
+      "attributes": {
+        "type": "Quality_Inspection__c",
+        "referenceId": "QIRef3"
+      },
+      "Production_Run__c": "@RunRef7",
+      "Quality_Status__c": "Passed"
+    },
+    {
+      "attributes": {
+        "type": "Quality_Inspection__c",
+        "referenceId": "QIRef4"
+      },
+      "Production_Run__c": "@RunRef3",
+      "Quality_Status__c": "Failed"
+    },
+    {
+      "attributes": {
+        "type": "Quality_Inspection__c",
+        "referenceId": "QIRef5"
+      },
+      "Production_Run__c": "@RunRef2",
+      "Quality_Status__c": "Passed"
+    }
+  ]
+}

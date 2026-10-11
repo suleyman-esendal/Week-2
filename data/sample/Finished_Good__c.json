@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Finished_Good__c",
+        "referenceId": "FGRef1"
+      },
+      "Production_Order__c": "@PORef11"
+    },
+    {
+      "attributes": {
+        "type": "Finished_Good__c",
+        "referenceId": "FGRef2"
+      },
+      "Production_Order__c": "@PORef11"
+    },
+    {
+      "attributes": {
+        "type": "Finished_Good__c",
+        "referenceId": "FGRef3"
+      },
+      "Production_Order__c": "@PORef12"
+    }
+  ]
+}

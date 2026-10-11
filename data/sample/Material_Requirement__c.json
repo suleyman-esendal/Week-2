@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef1"
+      },
+      "Production_Order__c": "@PORef1"
+    },
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef2"
+      },
+      "Production_Order__c": "@PORef1"
+    },
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef3"
+      },
+      "Production_Order__c": "@PORef3"
+    },
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef4"
+      },
+      "Production_Order__c": "@PORef3"
+    },
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef5"
+      },
+      "Production_Order__c": "@PORef5"
+    },
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef6"
+      },
+      "Production_Order__c": "@PORef5"
+    },
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef7"
+      },
+      "Production_Order__c": "@PORef7"
+    },
+    {
+      "attributes": {
+        "type": "Material_Requirement__c",
+        "referenceId": "MRRef8"
+      },
+      "Production_Order__c": "@PORef7"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef1"
+      },
+      "Plant__c": "@PlantRef1",
+      "Status__c": "Production Planning",
+      "Material_Ready__c": false,
+      "Description__c": "Door frame assemblies, batch 1",
+      "Start_Date__c": "2026-10-26",
+      "Planned_Quantity__c": 500,
+      "Completed_Quantity__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef2"
+      },
+      "Plant__c": "@PlantRef5",
+      "Status__c": "Production Planning",
+      "Material_Ready__c": false
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef3"
+      },
+      "Plant__c": "@PlantRef2",
+      "Status__c": "Material Readiness",
+      "Material_Ready__c": false,
+      "Description__c": "Machined housings, waiting on steel stock",
+      "Start_Date__c": "2026-10-13",
+      "Planned_Quantity__c": 800,
+      "Completed_Quantity__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef4"
+      },
+      "Plant__c": "@PlantRef3",
+      "Status__c": "Material Readiness",
+      "Material_Ready__c": false,
+      "Description__c": "Stamped brackets",
+      "Start_Date__c": "2026-10-20",
+      "Planned_Quantity__c": 300,
+      "Completed_Quantity__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef5"
+      },
+      "Plant__c": "@PlantRef1",
+      "Status__c": "Work-Center Scheduling",
+      "Material_Ready__c": true,
+      "Description__c": "Chassis weld sub-assemblies",
+      "Start_Date__c": "2026-10-14",
+      "Planned_Quantity__c": 650,
+      "Completed_Quantity__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef6"
+      },
+      "Plant__c": "@PlantRef2",
+      "Status__c": "Work-Center Scheduling",
+      "Material_Ready__c": true,
+      "Description__c": "Machined gear blanks",
+      "Start_Date__c": "2026-10-22",
+      "Planned_Quantity__c": 400,
+      "Completed_Quantity__c": 0
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef7"
+      },
+      "Plant__c": "@PlantRef1",
+      "Status__c": "Execution",
+      "Material_Ready__c": true,
+      "Description__c": "Door frame assemblies, batch 0",
+      "Start_Date__c": "2026-10-05",
+      "Planned_Quantity__c": 1000,
+      "Completed_Quantity__c": 450
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef8"
+      },
+      "Plant__c": "@PlantRef3",
+      "Status__c": "Execution",
+      "Material_Ready__c": true,
+      "Description__c": "Stamped panels",
+      "Start_Date__c": "2026-10-08",
+      "Planned_Quantity__c": 250,
+      "Completed_Quantity__c": 100
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef9"
+      },
+      "Plant__c": "@PlantRef4",
+      "Status__c": "Quality Inspection",
+      "Material_Ready__c": true,
+      "Description__c": "Painted trim components",
+      "Start_Date__c": "2026-09-28",
+      "Planned_Quantity__c": 900,
+      "Completed_Quantity__c": 900
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef10"
+      },
+      "Plant__c": "@PlantRef2",
+      "Status__c": "Downtime Response",
+      "Material_Ready__c": true,
+      "Description__c": "Machined shafts, line stopped",
+      "Start_Date__c": "2026-10-09",
+      "Planned_Quantity__c": 600,
+      "Completed_Quantity__c": 220
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef11"
+      },
+      "Plant__c": "@PlantRef1",
+      "Status__c": "Finished-Goods Release",
+      "Material_Ready__c": true,
+      "Description__c": "Wheel hub assemblies",
+      "Start_Date__c": "2026-09-15",
+      "Planned_Quantity__c": 750,
+      "Completed_Quantity__c": 750
+    },
+    {
+      "attributes": {
+        "type": "Production_Order__c",
+        "referenceId": "PORef12"
+      },
+      "Plant__c": "@PlantRef4",
+      "Status__c": "Finished-Goods Release",
+      "Material_Ready__c": true,
+      "Description__c": "Painted trim, overrun on final lot",
+      "Start_Date__c": "2026-09-10",
+      "Planned_Quantity__c": 1000,
+      "Completed_Quantity__c": 1050
+    }
+  ]
+}
